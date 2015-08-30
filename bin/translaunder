@@ -1,0 +1,16 @@
+#! /usr/bin/env ruby
+require 'rubygems'
+
+lib_path = File.dirname(__FILE__)+'/../lib'
+$LOAD_PATH.unshift(lib_path) unless $LOAD_PATH.include?(lib_path)
+
+require 'translaunder'
+
+begin
+  params = TransLaunder::InputParser.new(ARGV).parse
+  TransLaunder::Main.new(params).translate
+rescue Interrupt # user pressed CTRL+C
+  STDERR.puts "\nTranslaunder: exiting due to user request"
+  exit 130
+end
+
