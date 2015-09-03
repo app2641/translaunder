@@ -1,4 +1,4 @@
-TransLaunder [![Build Status](https://travis-ci.org/app2641/TransLaunder.svg?branch=master)](https://travis-ci.org/app2641/TransLaunder) [![Coverage Status](https://coveralls.io/repos/app2641/TransLaunder/badge.png?branch=master)](https://coveralls.io/r/app2641/TransLaunder?branch=master)
+TransLaunder [![Build Status](https://travis-ci.org/app2641/translaunder.svg?branch=master)](https://travis-ci.org/app2641/translaunder) [![Coverage Status](https://coveralls.io/repos/app2641/translaunder/badge.svg?branch=master&service=github)](https://coveralls.io/github/app2641/translaunder?branch=master)
 ====
 
 Google翻訳の結果をロンダリングする Gem です。
