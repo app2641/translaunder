@@ -11,10 +11,6 @@ Example:
 translaunder ja en 'やあカウボーイ、馬はどこ？'
 => 'ちょっとカウボーイ、どこに馬がいるのですか？'
 
-Options:
--t - speech synthesis
--s - synonyms list
-
 Check docs at: github.com/app2641/translaunder
 EOS
       exit
